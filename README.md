@@ -26,10 +26,10 @@ The table below provides a comparison:
 | Name             | Schemas         | Self-Describing  | Spec               | Maturity        | Compact         |
 |------------------|-----------------|------------------|--------------------|-----------------|-----------------|
 | **JSON schema**  | :green_heart:   | :green_heart:    | :green_heart: IETF†| :green_heart:   | :broken_heart:  |
-| [capnproto]      | :green_heart:   | :green_heart:    | :yellow_heart:     | :yellow_heart:  | :green_heart:   |
-| [msg  pack]      | :broken_heart:  | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
-| [ion]            | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
-| [tjson]          | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :broken_heart:  |
+| capnproto        | :green_heart:   | :green_heart:    | :yellow_heart:     | :yellow_heart:  | :green_heart:   |
+| msgpack          | :broken_heart:  | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
+| ion              | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
+| tjson            | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :broken_heart:  |
 (please shout if you think there's a mistake)
 
 *†NOTE: Standard in progress!*
