@@ -71,7 +71,7 @@ By experimental, I mean new and interesting but rarely if ever seen in productio
 - there are also various schemes out there that required some compiled schema (protobuf, avro, thrift, ASN1, DER, etc.), but this doesn't make it a great fit for our specific purpose.
 
 ## reasonably polymorphic tests - WIP 
-Here will be to implement polymorphism on real gnap messages. As a result of the comparison, I will focus on JSON and ION.
+We aim to provide concrete implementations of polymorphism on real gnap messages. As a result of the comparison, I will focus on JSON and ION.
 
 The goal is to:
 - test various alternatives (even if they're not going to be chosen in the spec, it should provide a more detailed justification on the choices made)
