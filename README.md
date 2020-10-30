@@ -23,13 +23,16 @@ JSON schema is the prefered option currently, but I think worthwile to make a mo
 
 The table below provides a comparison:
 
-| Name             | Schemas         | Self-Describing  | Standardisation    | Maturity        | Compact         |
+| Name             | Schemas         | Self-Describing  | Spec               | Maturity        | Compact         |
 |------------------|-----------------|------------------|--------------------|-----------------|-----------------|
-| **JSON schema**  | :green_heart:   | :green_heart:    | IETF†              | :green_heart:   | :broken_heart:  |
-| ION              | :green_heart:   | :green_heart:    | :broken_heart:     | :green_heart:   | :green_heart:   |
-(to be completed)
+| **JSON schema**  | :green_heart:   | :green_heart:    | :green_heart: IETF†| :green_heart:   | :broken_heart:  |
+| [capnproto]      | :green_heart:   | :green_heart:    | :yellow_heart:     | :yellow_heart:  | :green_heart:   |
+| [msg  pack]      | :broken_heart:  | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
+| [ion]            | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
+| [tjson]          | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :broken_heart:  |
+(please shout if you think there's a mistake)
 
-*†NOTE: Work in progress!*
+*†NOTE: Standard in progress!*
 
 The maturity evaluation criteria is subjective (based on number of available implementations, in various mainstream programming languages, and usage in various projects). 
 
