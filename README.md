@@ -45,13 +45,15 @@ Of the entire list, it is the most widely used and is already supported by many 
 GNAP related resources:https://github.com/ietf-wg-gnap/core-protocol/pull/4
 
 ### [capnproto](https://capnproto.org/)
-A fast RPC protocol that happens to also implement its own serialization scheme and provides a [schema langage](https://capnproto.org/language.html), including a union type.
+A fast RPC protocol that happens to also implement its own serialization scheme and provides a [schema langage](https://capnproto.org/language.html), including a union type. Many implementations but parent supporting company sandstorm was stopped, and the core of how it works is quite hairy.
 
 ### [msgpack](https://msgpack.org/)
-Not meant to be easily readable by a human (just like CBOR), comes with many implementations. Doesn't provide a schema.
+Not meant to be easily readable by a human (just like CBOR), comes with many implementations. Doesn't provide a schema, so not a great fit. 
+But this highlights an issue: even if we have json schema, how can we include support for CBOR too? (for constrainted cases that will likely occur).
 
 ### [ion](http://amzn.github.io/ion-docs/)
-New kid on the block, backed by amazon, it provides a compact format (kind of a merge between json and cbor) which would be a good fit in an IAM context, to generalize to a wider audience of clients (web, mobile, iot). Related subprojects support [hash](https://amzn.github.io/ion-hash/) and, most importantly for our concern, a [schema](https://amzn.github.io/ion-schema/). Several implementations are available. 
+There comes the new kid on the block, backed by amazon, it provides a compact format (kind of a merge between json and cbor) which would be a good fit in an IAM context, to generalize to a wider audience of clients (web, mobile, iot). Related subprojects support [hash](https://amzn.github.io/ion-hash/) and, most importantly for our concern, a [schema](https://amzn.github.io/ion-schema/). Several implementations are available. 
+Could be a real contender, as it removes the compact format / CBOR issue.
 
 ### experimental
 By experimental, I mean new and interesting but rarely if ever seen in production. 
@@ -71,9 +73,9 @@ The goal is to:
 - provide guidance on how to best implement it in various mainstream languages, in the most idiomatic way possible 
 - provide a test suite that includes various examples and ensure compatibility between implementations
 
-By mainstream, I have in mind: typescript, java, python, go, rust. 
+By mainstream, I have in mind: typescript, java, kotlin, python, go, rust. 
 
-Help welcome. I guess it makes it a fun coding exercice. For instance, will also try it in scala3, because I want tp give it a try ;-)
+Help welcome. I guess it makes it a fun coding exercice. For instance, will also probably try it in scala3, because I want tp give it a try ;-)
 
 ### json schema
 - [rust](https://github.com/fimbault/test_gnap_schema) : a very basic test of using a json schema validation
