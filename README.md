@@ -9,7 +9,7 @@ I ask for your understanding, this is not a trivial problem to be resolved
 It is envisaged within [IETF gnap](https://tools.ietf.org/id/draft-ietf-gnap-core-protocol-00.html) to use polymorphism for json request/responses.
 The rationale has been explained by Justin Richer in various places. In my own words, I would say that the intent is to make the life of the developer easier, with client libraries not having to support all possible permutations. Just prepare your request and send it to the Authorization Server (AS), and you're good to go. 
 
-Despite the advantages, the concern is that the conversion between objects and json might be difficult for strongly typed langages (for instance [this discussion](https://medium.com/@aems/one-mans-struggle-with-typescript-class-serialization-478d4bbb5826)) and potentially error prone.
+Despite the advantages, the concern is that the conversion between objects and json might be difficult for strongly typed langages (see for instance [this discussion](https://medium.com/@aems/one-mans-struggle-with-typescript-class-serialization-478d4bbb5826) on how typescript makes it more complex) and potentially error prone.
 Related discussions: 
 - [HN discussion](https://news.ycombinator.com/item?id=24855750)
 - IETF mailing list, see [discussion](https://mailarchive.ietf.org/arch/msg/txauth/0RRynhG7hwxpE341K-gSZhRXPIo/)
