@@ -3,6 +3,8 @@ A systematic review and some tests
 
 > If you look at another engineer's work and think, "That's dumb. Why don't you just..." Take a breath. Find out why the problem is hard. _—Adrienne Porter Felt_
 
+(and I ask for your understanding, this is not a trivial problem, so there might be mistakes along the way)
+
 ## the context and problem
 It is envisaged within [IETF gnap](https://tools.ietf.org/id/draft-ietf-gnap-core-protocol-00.html) to use polymorphism for json request/responses.
 The rationale has been explained by Justin Richer in various places. In my own words, I would say that the intent is to make the life of the developer easier, with client libraries not having to support all possible permutations. Just prepare your request and send it to the Authorization Server (AS), and you're good to go. 
