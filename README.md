@@ -29,12 +29,12 @@ The table below provides a comparison:
 | capnproto        | :green_heart:   | :green_heart:    | :yellow_heart:     | :yellow_heart:  | :green_heart:   |
 | msgpack          | :broken_heart:  | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
 | ion              | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
-| tjson            | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :broken_heart:  |
+| tjson            | :green_heart:   | :green_heart:    | :yellow_heart:     | :broken_heart:  | :broken_heart:  |
 (please shout if you think there's a mistake)
 
 *†NOTE: Standard in progress!*
 
-The maturity evaluation criteria is subjective (based on number of available implementations, in various mainstream programming languages, and usage in various projects). 
+The maturity evaluation criteria is subjective (based on number of available implementations, in various mainstream programming languages, and usage in various projects or support for a large organization). 
 
 We should also have in mind potential extensions (like CBOR for constrained use cases in OAuth ACE).
 
