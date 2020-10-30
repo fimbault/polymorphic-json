@@ -19,7 +19,7 @@ Note that at this stage, it may well be that the Working Group just decides on a
 
 ## review of possibilities
 
-Here we analyze how to best implement polymorphism. We're not answering whether there are alternatives to polyphormism that you potentially better fit the GNAP design of objective.
+Here we analyze how to best implement polymorphism. We're not answering whether there are alternatives to polyphormism that would potentially better fit the GNAP design of objective (maybe?).
 
 Ideally we'd want support for both self-description (for flexibility/evolutions) and schemas/types (to limit errors). But we should try to avoid reinventing the wheel. [Oh no! Not yet another serialization format!](https://scottlocklin.wordpress.com/2017/04/02/please-stop-writing-new-serialization-protocols/) 
 
