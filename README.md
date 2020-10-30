@@ -27,7 +27,7 @@ The table below provides a comparison:
 
 | Name             | Schema          | Self-Describing  | Spec               | Maturity        | Compact         |
 |------------------|-----------------|------------------|--------------------|-----------------|-----------------|
-| **JSON schema**  | :green_heart:   | :green_heart:    | :yellow_heart:†    | :green_heart:   | :broken_heart:  |
+| json and **json schema**  | :green_heart:   | :green_heart:    | :yellow_heart:†    | :green_heart:   | :broken_heart:  |
 | capnproto        | :green_heart:   | :green_heart:    | :yellow_heart:     | :yellow_heart:  | :green_heart:   |
 | msgpack          | :broken_heart:  | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
 | ion              | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
