@@ -54,7 +54,7 @@ GNAP related resources:https://github.com/ietf-wg-gnap/core-protocol/pull/4
 A fast RPC protocol that happens to also implement its own serialization scheme and provides a [schema langage](https://capnproto.org/language.html), including a union type. Many implementations but parent supporting company sandstorm was stopped, and the core of how it works is quite hairy (especially if one also wants to support dynamic languages).
 
 ### [msgpack](https://msgpack.org/)
-Not meant to be easily readable by a human (just like CBOR), comes with many implementations. Doesn't provide a schema, so not a great fit here. 
+Not meant to be easily readable by a human (just like CBOR, which is real fine to me), comes with many implementations. Doesn't provide a schema, so not a great fit here. 
 But this highlights an issue: even if we have json schema, how can we include support for a compact format / CBOR too? (for constrainted cases that will likely occur).
 
 ### [ion](http://amzn.github.io/ion-docs/)
