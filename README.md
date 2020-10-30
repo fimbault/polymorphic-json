@@ -17,13 +17,13 @@ Note that at this stage, it may well be that the Working Group just decides on a
 
 ## review of possibilities
 
-Ideally we'd want support for both self-description (for flexibility/evolutions) and schemas (to limit errors). But we should try to avoid reinventing the wheel. [Oh no! Not yet another serialization format!](https://scottlocklin.wordpress.com/2017/04/02/please-stop-writing-new-serialization-protocols/) 
+Ideally we'd want support for both self-description (for flexibility/evolutions) and schemas/types (to limit errors). But we should try to avoid reinventing the wheel. [Oh no! Not yet another serialization format!](https://scottlocklin.wordpress.com/2017/04/02/please-stop-writing-new-serialization-protocols/) 
 
 JSON schema is the prefered option currently, but I think worthwile to make a more systematic open review. 
 
 The table below provides a comparison:
 
-| Name             | Schemas         | Self-Describing  | Spec               | Maturity        | Compact         |
+| Name             | Types           | Self-Describing  | Spec               | Maturity        | Compact         |
 |------------------|-----------------|------------------|--------------------|-----------------|-----------------|
 | **JSON schema**  | :green_heart:   | :green_heart:    | :green_heart: IETF†| :green_heart:   | :broken_heart:  |
 | capnproto        | :green_heart:   | :green_heart:    | :yellow_heart:     | :yellow_heart:  | :green_heart:   |
