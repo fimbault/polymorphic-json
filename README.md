@@ -23,9 +23,9 @@ JSON schema is the prefered option currently, but I think worthwile to make a mo
 
 The table below provides a comparison:
 
-| Name             | Schemas         | Self-Describing  | Standardisation    | Maturity        |
-|------------------|-----------------|------------------|--------------------|-----------------|
-| **JSON schema**  | :green_heart:   | :green_heart:    | IETF†              | Good            |
+| Name             | Schemas         | Self-Describing  | Standardisation    | Maturity        | Compact         |
+|------------------|-----------------|------------------|--------------------|-----------------|-----------------|
+| **JSON schema**  | :green_heart:   | :green_heart:    | IETF†              | :green_heart:   | :broken_heart:  |
 (to be completed)
 
 *†NOTE: Work in progress!*
