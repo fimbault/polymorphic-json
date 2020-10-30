@@ -27,15 +27,16 @@ The table below provides a comparison:
 
 | Name             | Schema          | Self-Describing  | Spec               | Maturity        | Compact         |
 |------------------|-----------------|------------------|--------------------|-----------------|-----------------|
-| **JSON schema**  | :green_heart:   | :green_heart:    | :green_heart: IETF†| :green_heart:   | :broken_heart:  |
+| **JSON schema**  | :green_heart:   | :green_heart:    | :yellow_heart:†    | :green_heart:   | :broken_heart:  |
 | capnproto        | :green_heart:   | :green_heart:    | :yellow_heart:     | :yellow_heart:  | :green_heart:   |
 | msgpack          | :broken_heart:  | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
 | ion              | :green_heart:   | :green_heart:    | :yellow_heart:     | :green_heart:   | :green_heart:   |
-| tjson            | :green_heart:   | :green_heart:    | :yellow_heart:     | :broken_heart:  | :broken_heart:  |
+| tjson            | :green_heart:   | :green_heart:    | :yellow_heart:†    | :broken_heart:  | :broken_heart:  |
 (please shout if you think there's a mistake)
 
-*†NOTE: Standard in progress!*
+*†NOTE: unmaintained IETF draft*
 
+Unfortunately none of these projects have been standardised (or even are in the process of being standardised), but they do provide specification documents.
 The maturity evaluation criteria is subjective (based on number of available implementations, in various mainstream programming languages, and usage in various projects or support from a large organization). 
 
 We should also have in mind potential extensions (like CBOR for constrained use cases in OAuth ACE).
