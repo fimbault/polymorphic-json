@@ -1,9 +1,7 @@
 # polymorphic testing for IETF GNAP
 A systematic review and some tests
 
-> If you look at another engineer's work and think, "That's dumb. Why don't you just..."
-
-> Take a breath. Find out why the problem is hard. _—Adrienne Porter Felt_
+> If you look at another engineer's work and think, "That's dumb. Why don't you just..." Take a breath. Find out why the problem is hard. _—Adrienne Porter Felt_
 
 ## the context and problem
 It is envisaged within [IETF gnap](https://tools.ietf.org/id/draft-ietf-gnap-core-protocol-00.html) to use polymorphism for json request/responses.
