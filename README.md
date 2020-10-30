@@ -82,7 +82,7 @@ The goal is to:
 
 By mainstream, I have in mind (eventually): typescript, java (kotlin?), python, go, rust. 
 
-Help welcome. I guess it makes it a fun coding exercice. For instance, will also probably try it in scala3, because I want to learn about the new features ;-)
+Help welcome. I guess it makes a fun coding exercice. For instance, will also probably try it in scala3, because I want to learn about the new features ;-)
 
 ### json schema
 - [rust](https://github.com/fimbault/test_gnap_schema) : a very basic test of using a json schema validation
