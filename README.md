@@ -1,9 +1,9 @@
 # polymorphic testing 
 Here we analyze how to best implement polymorphism. We're not answering whether there are alternatives to polyphormism that would potentially better fit the GNAP design's objective. 
 
-> If you look at another engineer's work and think, "That's dumb. Why don't you just..." Take a breath. Find out why the problem is hard. _—Adrienne Porter Felt_
+I ask for your understanding, this is not a trivial problem to be resolved
 
-(and so I ask for your understanding, this is not a trivial problem to be resolved)
+> If you look at another engineer's work and think, "That's dumb. Why don't you just..." Take a breath. Find out why the problem is hard. _—Adrienne Porter Felt_
 
 ## the context and problem
 It is envisaged within [IETF gnap](https://tools.ietf.org/id/draft-ietf-gnap-core-protocol-00.html) to use polymorphism for json request/responses.
