@@ -1,4 +1,4 @@
-# polymorphic testing for IETF GNAP
+# polymorphic testing 
 A systematic review and some tests
 
 > If you look at another engineer's work and think, "That's dumb. Why don't you just..." Take a breath. Find out why the problem is hard. _—Adrienne Porter Felt_
