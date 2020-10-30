@@ -71,7 +71,7 @@ By experimental, I mean new and interesting but rarely if ever seen in productio
 
 ### not considered
 - XML (because I've done too much of that in a hopefully buried past).
-- there are also various schemes out there that required some compiled schema (protobuf, avro, thrift, ASN1, DER, etc.), but this doesn't make it a great fit for our specific purpose.
+- there are also various schemes out there that require some compiled schema (protobuf, avro, thrift, ASN1, DER, etc.), but this doesn't make it a great fit for our specific purpose.
 
 ## reasonably polymorphic tests - WIP 
 We aim to provide concrete implementations of polymorphism on real gnap messages. As a result of the comparison, I will focus on JSON and ION.
