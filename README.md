@@ -1,4 +1,4 @@
-# polymorphic-json
+# polymorphic serialized structures 
 A systematic review and some tests
 
 > If you look at another engineer's work and think, "That's dumb. Why don't you just..."
@@ -18,7 +18,7 @@ Note that at this stage, it may well be that the Working Group just decides on a
 
 ## review of possibilities
 
-Ideally we'd want support for both self-description (for flexibility/evolutions) and schemas (to limit errors). But we should try to avoid reinventing the wheel. [Oh no! Not yet another serialization format!](https://scottlocklin.wordpress.com/2017/04/02/please-stop-writing-new-serialization-protocols/). 
+Ideally we'd want support for both self-description (for flexibility/evolutions) and schemas (to limit errors). But we should try to avoid reinventing the wheel. [Oh no! Not yet another serialization format!](https://scottlocklin.wordpress.com/2017/04/02/please-stop-writing-new-serialization-protocols/) 
 
 JSON schema is the prefered option currently, but I think worthwile to make a more systematic open review. 
 
@@ -68,11 +68,13 @@ By experimental, I mean new and interesting but rarely if ever seen in productio
 ## reasonably polymorphic tests - WIP 
 Here will be to implement polymorphism on real gnap messages. 
 The goal is to:
-- test various alternatives discussed here (even if they're not going to be chosen in the spec, it's a good exercice)
-- provide guidance on how to best implement it in various mainstream languages, in the most idiomatic way. Maybe even provide a set of libraries for it someday. 
+- test various alternatives (even if they're not going to be chosen in the spec, it should provide a more detailed justification on the choices made)
+- provide guidance on how to best implement it in various mainstream languages, in the most idiomatic way possible 
 - provide a test suite that includes various examples and ensure compatibility between implementations
 
-By mainstream, I have in mind: typescript, java (kotlin? scala3?), python, go, rust. Help welcome.
+By mainstream, I have in mind: typescript, java, python, go, rust. 
+
+Help welcome. I guess it makes it a fun coding exercice. For instance, will also try it in scala3, because I want tp give it a try ;-)
 
 ### json schema
 - [rust](https://github.com/fimbault/test_gnap_schema) : a very basic test of using a json schema validation
