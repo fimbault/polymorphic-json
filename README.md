@@ -3,7 +3,7 @@ A systematic review and some tests
 
 > If you look at another engineer's work and think, "That's dumb. Why don't you just..." Take a breath. Find out why the problem is hard. _—Adrienne Porter Felt_
 
-(and I ask for your understanding, this is not a trivial problem, so there might be mistakes along the way)
+(and so I ask for your understanding, this is not a trivial problem to be resolved)
 
 ## the context and problem
 It is envisaged within [IETF gnap](https://tools.ietf.org/id/draft-ietf-gnap-core-protocol-00.html) to use polymorphism for json request/responses.
