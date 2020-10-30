@@ -78,7 +78,7 @@ The goal is to:
 - provide guidance on how to best implement it in various mainstream languages, in the most idiomatic way possible 
 - provide a test suite that includes various examples and ensure compatibility between implementations
 
-By mainstream, I have in mind: typescript, java (kotlin?), python, go, rust. 
+By mainstream, I have in mind (eventually): typescript, java (kotlin?), python, go, rust. 
 
 Help welcome. I guess it makes it a fun coding exercice. For instance, will also probably try it in scala3, because I want to learn about the new features ;-)
 
