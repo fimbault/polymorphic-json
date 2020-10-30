@@ -1,5 +1,5 @@
 # polymorphic testing 
-A systematic review and some tests
+Here we analyze how to best implement polymorphism. We're not answering whether there are alternatives to polyphormism that would potentially better fit the GNAP design's objective. 
 
 > If you look at another engineer's work and think, "That's dumb. Why don't you just..." Take a breath. Find out why the problem is hard. _—Adrienne Porter Felt_
 
@@ -18,8 +18,6 @@ We should examine in details what it implies for each party in the protocol (AS,
 Note that at this stage, it may well be that the Working Group just decides on a different design altogether.
 
 ## review of possibilities
-
-Here we analyze how to best implement polymorphism. We're not answering whether there are alternatives to polyphormism that would potentially better fit the GNAP design of objective. 
 
 Ideally we'd want support for both self-description (for flexibility/evolutions) and schemas/types (to limit errors). But we should try to avoid reinventing the wheel. [Oh no! Not yet another serialization format!](https://scottlocklin.wordpress.com/2017/04/02/please-stop-writing-new-serialization-protocols/) 
 
