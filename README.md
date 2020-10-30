@@ -42,7 +42,7 @@ The maturity evaluation criteria is subjective (based on number of available imp
 We should also have in mind potential extensions (like CBOR for constrained use cases in OAuth ACE).
 
 ### json
-JSON is the defacto reference in the API space (only to be contested by grpc in the microservices/kubernetes domain). Alongside, [JSON schema](https://json-schema.org) allows to specify the structure of a JSON document (here's a [link](https://json-schema.org/understanding-json-schema/reference/object.html#properties) to get a feeling of how this works). 
+JSON is the defacto reference in the API space (only to be contested by grpc/protobuf in the microservices/kubernetes domain). Alongside, [JSON schema](https://json-schema.org) allows to specify the structure of a JSON document (here's a [link](https://json-schema.org/understanding-json-schema/reference/object.html#properties) to get a feeling of how this works). 
 JSON schema has the ability to extend using $ref to other schemas (such as https://schema.org for instance) or may be combined with JSON-LD vocabularies (often used in the self sovereign identity space). 
 
 People wouldn't be forced to use the schema so they can still use a regular json processor (which is both good and bad).
