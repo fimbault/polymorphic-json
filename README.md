@@ -45,11 +45,11 @@ Of the entire list, it is the most widely used and is already supported by many 
 GNAP related resources:https://github.com/ietf-wg-gnap/core-protocol/pull/4
 
 ### [capnproto](https://capnproto.org/)
-A fast RPC protocol that happens to also implement its own serialization scheme and provides a [schema langage](https://capnproto.org/language.html), including a union type. Many implementations but parent supporting company sandstorm was stopped, and the core of how it works is quite hairy.
+A fast RPC protocol that happens to also implement its own serialization scheme and provides a [schema langage](https://capnproto.org/language.html), including a union type. Many implementations but parent supporting company sandstorm was stopped, and the core of how it works is quite hairy (especially if one also wants to support dynamic languages).
 
 ### [msgpack](https://msgpack.org/)
-Not meant to be easily readable by a human (just like CBOR), comes with many implementations. Doesn't provide a schema, so not a great fit. 
-But this highlights an issue: even if we have json schema, how can we include support for CBOR too? (for constrainted cases that will likely occur).
+Not meant to be easily readable by a human (just like CBOR), comes with many implementations. Doesn't provide a schema, so not a great fit here. 
+But this highlights an issue: even if we have json schema, how can we include support for a compact format / CBOR too? (for constrainted cases that will likely occur).
 
 ### [ion](http://amzn.github.io/ion-docs/)
 There comes the new kid on the block, backed by amazon, it provides a compact format (kind of a merge between json and cbor) which would be a good fit in an IAM context, to generalize to a wider audience of clients (web, mobile, iot). Related subprojects support [hash](https://amzn.github.io/ion-hash/) and, most importantly for our concern, a [schema](https://amzn.github.io/ion-schema/). Several implementations are available. 
